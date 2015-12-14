@@ -4,7 +4,7 @@
 ----------------
 
 
-![Spring runtime](https://gitlab.levi9.com/d.gajic/code9/raw/master/img/spring-overview.png) 
+![Spring runtime](/../images/images/spring-overview.png?raw=true) 
 
 ### MVC šablon
 
@@ -47,7 +47,7 @@ MVC je šablon koji se često koristi u razvoju web aplikacija.
 -----------------------
 
 
-![HLA](https://gitlab.levi9.com/d.gajic/code9/raw/master/img/hla.png)
+![HLA](/../images/images/hla.png)
 
 ----
 
