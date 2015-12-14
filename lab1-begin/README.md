@@ -4,7 +4,7 @@
 ----------------
 
 
-![Spring runtime](/../images/images/spring-overview.png?raw=true) 
+![Spring runtime](/../images/lab1-begin/images/spring-overview.png?raw=true) 
 
 ### MVC šablon
 
