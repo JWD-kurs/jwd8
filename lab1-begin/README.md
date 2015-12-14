@@ -24,7 +24,7 @@ MVC je šablon koji se često koristi u razvoju web aplikacija.
 -------------------------
 
 
-*	[Build tool](http://maven.apache.org/users/index.html) - alat za bildanje Java programa
+*	[Build tool](http://maven.apache.org/users/index.html) - alat za konstrukciju Java programa
 
 *	[Convention over configuration](http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
 
@@ -32,7 +32,7 @@ MVC je šablon koji se često koristi u razvoju web aplikacija.
 
 *	[Dependency management](http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html) - automatsko upravljanje dependency-ima
 
-*	[Build life-cycle](http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html) - životni ciklus bildanja programa
+*	[Build life-cycle](http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html) - životni ciklus izgradnje programskog paketa
 
 *	[IDE integration (m2e)](https://www.eclipse.org/m2e/) - integracija sa Eclipse radnim okruženjem
 
