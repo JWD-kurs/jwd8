@@ -47,7 +47,7 @@ MVC je šablon koji se često koristi u razvoju web aplikacija.
 -----------------------
 
 
-![HLA](/../images/images/hla.png)
+![HLA](/../images/lab1-begin/images/hla.png)
 
 ----
 
