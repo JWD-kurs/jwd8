@@ -8,40 +8,35 @@ import java.util.Map;
 import jwd.wafepa.model.Activity;
 import jwd.wafepa.service.ActivityService;
 
-import org.springframework.stereotype.Service;
-
-@Service
 public class InMemoryActivityService implements ActivityService {
-
-	private Map<Long, Activity> data = new HashMap<>();
-	private Long idCounter = 1L;
+	private Map<Long, Activity> activities = new HashMap<>();
+	private long nextId = 0;
 	
 	@Override
 	public Activity findOne(Long id) {
-		return data.get(id);
+		
+		return activities.get(id);
 	}
 
 	@Override
 	public List<Activity> findAll() {
-		return new ArrayList<>(data.values());
+		
+		return new ArrayList<Activity>(activities.values());
 	}
 
 	@Override
 	public Activity save(Activity activity) {
-		if (activity.getId() == null) {
-			activity.setId(idCounter);
-			idCounter++;
+		if(activity.getId()==null){
+			activity.setId(nextId++);
 		}
-		data.put(activity.getId(), activity);
+		activities.put(activity.getId(), activity);
 		return activity;
 	}
 
 	@Override
-	public void remove(Long id) throws IllegalArgumentException {
-		Activity activity = data.remove(id);
-		if (activity == null) {
-			throw new IllegalArgumentException("Removing unexisting activity with id=" + id);
-		}
+	public Activity remove(Long id) {
+		
+		return activities.remove(id);
 	}
 
 }

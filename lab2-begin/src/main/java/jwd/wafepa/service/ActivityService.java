@@ -5,9 +5,8 @@ import java.util.List;
 import jwd.wafepa.model.Activity;
 
 public interface ActivityService {
-
-	Activity findOne(Long id);
+	Activity findOne (Long id);
 	List<Activity> findAll();
 	Activity save(Activity activity);
-	void remove(Long id) throws IllegalArgumentException;
+	Activity remove(Long id);
 }
