@@ -149,5 +149,6 @@ Uvešćemo datoteke za gornje i donje zaglavlje, koje će biti identične na cel
 
 ### Domaći zadatak
 
-
-1. Po uzoru na stranice za aktivnosti, kreirati stranice za dodavanje i izmenu korisnika
+1. Dodati Bootstrap stilove na stranice activities.jsp i addEditActivity.jsp
+2. Eksperimentisati sa Bootstrap CSS i komponentama
+3. Po uzoru na stranice za aktivnosti, kreirati stranice za dodavanje i izmenu korisnika
