@@ -23,20 +23,20 @@ public class UserController {
 	
 	@PostConstruct
 	private void init() {
-		User user1 = new User();
-		user1.setEmail("user1@wafepa.com");
-		user1.setPassword("12345");
-		user1.setFirstname("User");
-		user1.setLastname("One");
-		
-		User user2 = new User();
-		user2.setEmail("user2@wafepa.com");
-		user2.setPassword("12345");
-		user2.setFirstname("User");
-		user2.setLastname("Two");
-		
-		userService.save(user1);
-		userService.save(user2);
+//		User user1 = new User();
+//		user1.setEmail("user1@wafepa.com");
+//		user1.setPassword("12345");
+//		user1.setFirstname("User");
+//		user1.setLastname("One");
+//		
+//		User user2 = new User();
+//		user2.setEmail("user2@wafepa.com");
+//		user2.setPassword("12345");
+//		user2.setFirstname("User");
+//		user2.setLastname("Two");
+//		
+//		userService.save(user1);
+//		userService.save(user2);
 	}
 
 	@RequestMapping(method=RequestMethod.GET)
