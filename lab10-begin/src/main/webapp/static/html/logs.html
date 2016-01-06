@@ -1,0 +1,32 @@
+<h1>Logs</h1>
+
+<table class="table table-bordered" ng-init="getLogs()">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Date</th>
+			<th>Duration</th>
+			<th>Activity</th>
+			<th>Actions</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="log in logs">
+			<td>{{ log.id }}</td>
+			<td>{{ log.date }}</td>
+			<td>{{ log.duration }}</td>
+			<td>{{ log.activity.name }}</td>
+			<td>
+				<button ng-click="deleteLog(log.id, $index)" class="btn btn-xs btn-danger">Delete</button>
+				<a href="#/logs/edit/{{ log.id }}" class="btn btn-xs btn-default">Edit</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="col-md-12 text-center">
+    <span ng-hide="successMessage || errorMessage" class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>
+    <span ng-show="errorMessage" class="label label-danger">{{ errorMessage }}</span>
+</div>
+
+<a href="#/logs/add">Add log</a>
